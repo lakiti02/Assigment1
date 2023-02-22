@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/webpage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Day1(html)_files/style.css">
+
+</head>
+
+<body>
+    <div id="header"> 960 Spruce St. <br> Trenton, NJ 08648 <br> 609-396-3966 </div>
+    <div id="logo"> 
+        <img id="company" src="./Day1(html)_files/logo.png" alt="">
+         </div>
+    <div id="table">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Products</div>
+        <div class="nav-item">Location</div>
+        <div class="nav-item">Contacts</div>
+    </div>
+
+    <div id="topic"> <h1>Cartlidges Quality Meals</h1> </div>
+    <div> <h2><a id="number" href="http://127.0.0.1:5500/webpage.html">609-396-3966</a></h2> </div>
+    <div id="about"> <h2>About Us</h2></div>
+    <div> <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore laudantium soluta nihil possimus incidunt aspernatur magni nesciunt ipsam, cum est ex aut inventore voluptatum illo. Voluptatibus temporibus mollitia et illum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum in est, laboriosam perspiciatis sit inventore eum hic tenetur eligendi voluptate dolore nesciunt quos, ullam optio cupiditate harum, doloribus amet fuga?
+    </p>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore laudantium soluta nihil possimus incidunt aspernatur magni nesciunt ipsam, cum est ex aut inventore voluptatum illo. Voluptatibus temporibus mollitia et illum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum in est, laboriosam perspiciatis sit inventore eum hic tenetur eligendi voluptate dolore nesciunt quos, ullam optio cupiditate harum, doloribus amet fuga?
+    </p>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore molestiae quibusdam, itaque dolorum officia perferendis quos repellat minima ipsum qui recusandae, sint obcaecati, ea suscipit facilis voluptate similique voluptates animi? </p>
+</div>
+
+    <div id="images">
+        <img src="./Day1(html)_files/bakery1.jpg" alt=""> <br>
+        <img src="./Day1(html)_files/bakery2.jpg" alt="">
+    </div>
+
+    <div id="media">
+        <img class="free" src="./Day1(html)_files/Facebook-logo.png" alt="">
+        <img class="free" src="./Day1(html)_files/twitter-logo.png" alt="">
+        <img class="free" src="./Day1(html)_files/Pinterest-Logo.png" alt="">
+        <img class="free" src="./Day1(html)_files/gmail-logo.png" alt="">
+
+    </div>
+
+    <div id="rights"> All Rights Reserved </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

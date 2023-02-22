@@ -1,0 +1,44 @@
+#logo img{
+    width: 300px;
+}
+#table{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header{
+    background: black;
+    color: white;
+}
+
+.nav-item{
+    background-color: brown;
+    width: 24.8%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+#number{
+    color: brown;
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    padding: 10px;
+}
+.free{
+    width: 20px;
+}
+
+#media{
+    display: flex;
+    justify-content: center;
+}
+
+#rights{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
